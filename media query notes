@@ -1,0 +1,20 @@
+@media (max-width: 900px){
+
+h1{
+ color: red;
+ font-size: 100px;
+}
+}
+@media (min-width: 900px){
+
+h1{
+ color: green;
+ font-size: 150px;
+}
+}
+
+1. monitor size screen size and viewport
+2. you can use two approaches while designing websites a. you can go mobiel first b. you can go desktop first. after that you can edit you websites responsiveness for other platform
+3. more than half of the users of your website will be from mobile
+4. Last css rule change will be the one that will be carried out
+5. 

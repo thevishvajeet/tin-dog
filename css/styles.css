@@ -1,0 +1,164 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+}
+
+body{
+  font-family: Montserrat;
+}
+h1, h2, h3, h4{
+  font-family: 'Montserrat-Black', sans-serif;
+
+}
+
+h1{
+ line-height: 1.5;
+ font-size: 3.5rem;
+
+ font-weight: bolder;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 36px;
+  font-weight: bold;
+}
+p{
+  color: #8F8F8F;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.pink{
+padding-bottom: 0px;
+}
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  }
+
+  .nav-item{
+    padding: 0 18px;
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+
+/* Download Buttons */
+
+.Download-button{
+  margin: 5% 3% 0 3%;
+}
+
+/* Title image */
+
+.kutta{
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  z-index: 0;
+  right: 30%;
+}
+
+/* features Section */
+.middle-container{
+  padding: 15% 7%;
+  background-color: white;
+  position: relative;
+}
+
+
+.middle-container-box{
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+
+.img-icon{
+  font-size: 80px;
+  color: #ef8172;
+  margin: 1rem;
+}
+.img-icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press{
+  background-color:#ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 14%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
+/* Media Query breakpoints */
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .kutta{
+    position: static;
+    transform: rotate(0);
+    margin-top: 30px;
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 20% 10%;
+}
+
+#footer{
+  align-items: center;
+  text-align: center;
+
+}
+
+.footnote-icons{
+  margin: 20px 10px;
+}
